@@ -33,7 +33,7 @@ The other scripts in this repo are imported into the bandpass ones.  The other f
 * `filters.py` -- this chaos script sorts &amp; organizes the various ground- and space-based bandpasses plotted in the three bandpass scripts.
 * `filters/` -- this folder contains all of the filters used in the three bandpass scripts, with all but the Keck/MOSFIRE ones pulled from the [SVO filter profile service](http://svo2.cab.inta-csic.es/svo/theory/fps3/) for consistency in formatting (the Keck/MOSFIRE ones are pulled from the MOSFIRE instrument webpage)
 * `age7z0.2zneb0.2u-2.1_100.con` -- this is a Cloudy model that I created which used a BPASS single stellar population model (10 Myr, max mass 100 Msolar) and defined the nebular gas to be 20% Solar with n_H = 300 cm^(-3) and ionization parameter of logU = -2.1 (you're welcome to replace this model with one of your own).
-
+* `figure.pdf` -- the resulting plot from each bandpass script, opened using OS command (currently set to `open figure.pdf` but there is a commented-out Linux version of that command as well)
 
 
 
