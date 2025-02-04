@@ -15,13 +15,13 @@ There are three versions of the code in this repository, described as follows:
 To run any of these scripts, you can put the following in your terminal (replacing the script name with whichever of the three you prefer):
 
 ```
-run bandpass-zlines.py 7
+run bandpass-zlines.py 11
 ```
 
 The number indicates the redshift that the model spectrum &amp; lines will be shifted to.  If you want to see the photometric coverage at that redshift using the `bandpass-zlines-jwstonly.py` script, you simply add "phot" to the end of that line:
 
 ```
-run bandpass-zlines-jwstonly.py 7 phot
+run bandpass-zlines-jwstonly.py 11 phot
 ```
 
 
