@@ -18,7 +18,10 @@ import pandas as pd
 import numpy as np
 import matplotlib.pyplot as plt
 import cmasher
-path = '/Users/tahutch1/data/filters/'
+# path = '/Users/tahutch1/data/filters/'
+path = 'filters/' # to make code work in repo
+
+
 
 # ------ reading in filter curves ------ #
 # ------- & creating dictionaries ------ #
